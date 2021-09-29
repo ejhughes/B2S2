@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #fff3dd;
+  padding: 0px 50px 0px 50px;
+}
+
+h1 {
+  font-size: 64px;
+  color: darkslategray;
+}
+
+button {
+  border: none;
+}
+
+#filterButton {
+  background-color: rgb(216, 181, 122);
+}
+
+.export {
+  background-color: #f19811;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px 20px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>b2s-embedding</title>
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+  </head>
+  <body>
+    <h1>B2S Embedding</h1>
+    <div>
+      <input type="number" placeholder="min value" id="minValue" />
+      <input type="number" placeholder="max value" id="maxValue" />
+      <button id="filterButton">Filter Sales Values</button>
+    </div>
+    <!-- Place to store our Tableau dashboard -->
+    <div id="vizContainer"></div>
+    <br />
+    <div>
+      <button class="export" id="exportToPDF">Export PDF</button>
+      &nbsp;
+      <button class="export" id="exportToPPT">Export PPT</button>
+    </div>
+    <!-- Load the app.js file -->
+    <script src="app.js"></script>
+  </body>
+</html>
